@@ -2722,9 +2722,9 @@ meta.foundation-mq-topbar {
   border-style: solid;
   border-width: 1px;
   border-color: #d8d8d8;
-  margin-bottom: 1.50rem;
+  margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #aff2df;
+  background: #f2f2f2;
   color: #333333; }
   .panel > :first-child {
     margin-top: 0; }
@@ -2743,7 +2743,7 @@ meta.foundation-mq-topbar {
     border-color: #d8d8d8;
     margin-bottom: 1.25rem;
     padding: 1.25rem;
-    background: #ffffff;
+    background: #ecfaff;
     color: #333333; }
     .panel.callout > :first-child {
       margin-top: 0; }
