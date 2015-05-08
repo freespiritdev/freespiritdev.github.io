@@ -3,7 +3,7 @@
 }
 
 .callout.panel.white-panel{
-  background-color: #fff;
+  background-color: #fefbf7;
 }
 .panel{
   background-color: #fff;
@@ -67,7 +67,7 @@ form{
   width:200px;
   height:150px;
 }
- 
+
 #footer {
   width:100%;
   height:20px;
