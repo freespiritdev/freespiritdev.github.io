@@ -87,6 +87,31 @@ form{
   margin: 10px;
 }
 
+#img{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
+.left {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 40%
+  left: 0px;
+}
+
+.right {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 40%
+  right: 0px;
+}
+
+.top-bar ul li a {
+  background-color: transparent; !important;
+}
 
 #footer {
   width:100%;
