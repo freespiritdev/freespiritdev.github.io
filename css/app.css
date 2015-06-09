@@ -87,6 +87,11 @@ form{
   margin: 10px;
 }
 
+#img{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
 
 #footer {
   width:100%;
