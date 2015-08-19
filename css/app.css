@@ -1,45 +1,10 @@
-.callout.panel.green-panel{
-  background-color: #9dd;
-}
-
-.callout.panel.white-panel{
-  background-color: #fefbf7;
-}
-.panel{
-  background-color: #fff;
-  border-width: 0px;
-}
-
-h1, .header h5{
-  text-align: center;
-}
-
-#header h1 {
-  color: #3DD;
-  font-size: 2.2em;
-  font-weight: 450;
-  line-height: 2;
-  margin-bottom: 0.3em;
-}
-
- #header p {
-  color:grey;
-  font-size:1.25em;
-  line-height: 1.5;
-  text-shadow: 0 1px 2px rgba(0,0,0,.2);
-  margin-bottom: 1.2em;
- }
-
-em {
-  color: #000000;
-}
-
 html,
 body {
   background: #ffffff;
   margin:0;
   padding:0;
   height:100%;
+  font-size: 18px;
 }
 
 a {
@@ -47,74 +12,58 @@ a {
   line-height: inherit;
   text-decoration: none; 
 }
-  a:hover, a:focus {
-    color: #3dd; 
-  }
-  a img {
-    border: none; 
-  }
 
-form{
-  max-width: 400px;
-  margin: 0 auto 50px;
-
+a:hover, a:focus {
+  color: #3DD; 
 }
 
-#projects .pic img {
-  float:none;
-  display:inline;
-  margin-right:1em;
-  width:200px;
-  height:150px;
+nav a:hover {
+  color: #000;
 }
 
-.fi-social-github {
-   font-size: 35px;
+em {
+  color: #000000;
 }
 
-.fi-mail {
-   font-size: 35px;
-}
-
-.contact {
-  background-color: #ffffff;
+h1, .header h5{
   text-align: center;
-  padding: 30px 0;
-}
-.social {
-  list-style: none;
-  display: inline-block;
-  margin: 10px;
 }
 
-#img{
-  height: 100px;
-  width: 100px;
-  position: absolute;
+h2 {
+  text-align: center;
+  color: #337ab7;
 }
 
-.left {
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  top: 40%
-  left: 0px;
+section h2.section-heading {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 30px;
 }
 
-.right {
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  top: 40%
-  right: 0px;
+ul, ol, dl {
+  font-size: 1.3em;
+  }
+
+#header h1 {
+  color: #337ab7;
+  font-size: 2em;
+  font-weight: 350;
+  line-height: 2;
 }
 
-.top-bar ul li a {
-  background-color: transparent; !important;
+#work {
+ margin-right: 0;
+ margin-left: 0;
 }
+ #header p {
+  color: gray;
+  font-size:1.25em;
+  line-height: 1.5;
+  text-shadow: 0 1px 2px rgba(0,0,0,.2);
+  margin-bottom: 1.2em;
+ }
 
-
-#footer {
+ #footer {
   width:100%;
   height:20px;
   position:absolute;
@@ -123,3 +72,101 @@ form{
   margin-left: auto;
   margin-right: auto;
 }
+
+.fi-social-github {
+   font-size: 100px;
+   color: #000;
+}
+
+.fi-mail {
+   font-size: 35px;
+   color: #000;
+}
+
+.fi-social-github:hover, .fi-mail:hover  {
+  color: #337ab7;
+}
+
+.social {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+.contact {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#work .work-item {
+    right: 0;
+    margin: 0 0 1px;
+}
+
+#work .work-item .work-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#work .work-item .work-link .work-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: #7efbf7;
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    transition: all ease .4s;
+}
+
+#work .work-item .work-link .work-hover:hover {
+    opacity: 1;
+}
+
+#work .work-item .work-link .work-hover .work-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+#work .work-item .work-link .work-hover .work-hover-content i {
+    margin-top: -2px;
+}
+
+#work .work-item .work-link .work-hover .work-hover-content h3,
+#work .work-item .work-link .work-hover .work-hover-content h4 {
+    margin: 0;
+}
+
+#work .work-item .work-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#work .work-item .work-caption h4 {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#work .work-item .work-caption p {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#work * {
+    z-index: 2;
+}
+
+

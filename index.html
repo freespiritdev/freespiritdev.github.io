@@ -7,153 +7,167 @@
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/app.css"> 
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css"> 
     <script src="js/vendor/modernizr.js"></script>
   </head>
 
-  <body background="img/haven.jpg" bgcolor="#333333">
+  <body>
   
     <div id="header">
       <div>
         <nav>
-          <a href="">Portfolio</a>
-          <a target="_new" href="http://github.com/freespiritdev">GitHub</a>
-          <a href="mailto:freespiritdev@gmail.com">Email Me</a>
-          <a href="engineer.pdf">Résumé</a>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+              <li class="hidden">
+                <a href="#page-top"></a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#">Portfolio</a>
+              </li>
+              <li>
+                <a target="_new" class="page-scroll" href="http://github.com/freespiritdev">GitHub</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="mailto:freespiritdev@gmail.com">Email Me</a>
+              </li>
+              <li>
+                <a target="_new" class="page-scroll" href="engineer.pdf">Résumé</a>
+              </li>
+            </ul>
+          </div>
         </nav>
-      </div>
 
-      <div class="row">
-        <div class="large-12 columns">
-        	<div class="panel green">
-  	        <h1>Hey There!</h1>
+        <div class="col-lg-12">
+        	<div class="container">
+  	        <h1>Welcome!</h1>
   	        <p>I'm a Web Developer with over 10 years experience in different areas of technology. I have a Bachelor of Science in Computer Science and I completed a Full Stack Web Development coding bootcamp with <a href="bloc.io">Bloc,Inc last</a> last December. I enjoy learning new things, welcome challenges and I'm extremely passionate about becoming a better technical professional. I can work on the frontend and backend of web applications.
             </p>
             <p>I work with Ruby on Rails, JavaScript, HTML5, CSS3, jQuery, Coffeescript, Rspec, Git, Zurb-Foundation, Twitter Bootstrap, Angularjs and API’s.</p>
-        	</div>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="callout panel green-panel">
-           <h5>Project Screenshots:</h5>
-
-            <div id="projects">
-              <div class="pic">
-                <div class="callout panel white-panel">
-                  <a href="img/mediahaven.jpg" target="_blank"><img src="img/mediahaven.jpg"></a>
-                  <a href="img/mediahaven2.jpg" target="_blank"><img src="img/mediahaven2.jpg"></a>
-                  <a href="img/mediahaven3.jpg" target="_blank"><img src="img/mediahaven3.jpg"></a>
-                  <a href="img/mediahaven4.jpg" target="_blank"><img src="img/mediahaven4.jpg"></a>
-                  <br><br>
-                  <h2>Media Haven</h2>
-                  <h5><span class="">Ruby on Rails /</span> <span class="">Front-End Development</span></h5>
-                  <p>Movie, TV & Music Review App. It was developed using Ruby on Rails, Bootstrap, HTML5, SASS and CoffeeScript and also includes a Facebook sign in option!</p>
-                  <p><a href="https://github.com/freespiritdev/mediahaven">More Media Haven on Github</a></p>
-                  <p><a href="https://mediahaven.herokuapp.com">Media Haven is also on Heroku</a></p>
-                  </div>
-                </div>
-              </div>
-              
-              <div id="projects">
-                <div class="pic">
-                  <div class="callout panel white-panel">
-                    <a href="img/skybnb.jpg" target="_blank"><img src="img/skybnb.jpg"></a>
-                    <a href="img/skybnb2.jpg" target="_blank"><img src="img/skybnb2.jpg"></a>
-                   <br><br>
-                    <h2>Skybnb</h2>
-                    <h5><span class="">Landing Page /</span> <span class="">Front-End Development</span></h5>
-                    <p>Developed using HTML5 & CSS3</p>
-                    <p><a href="https://github.com/freespiritdev/skybnb2">More Skybnb on Github</a></p>
-                </div>
-              </div>
-            </div>
-
-            <div id="projects">
-              <div class="pic">
-                <div class="callout panel white-panel">
-                  <a href="img/shoppinglist.jpg" target="_blank"><img src="img/shoppinglist.jpg"></a>
-                  <a href="img/shoppinglist2.jpg" target="_blank"><img src="img/shoppinglist2.jpg"></a>
-                  <a href="img/shoppinglist3.jpg" target="_blank"><img src="img/shoppinglist3.jpg"></a>
-                  <a href="img/shoppinglist4.jpg" target="_blank"><img src="img/shoppinglist4.jpg"></a><br><br>
-                  <h2>Shopping To do List</h2>
-                  <h5><span class="">Front-End Development</span></h5>
-                  <p>Developed using HTML5, CSS3, JavaScript and jQuery UI</p>
-                  <p><a href="https://github.com/freespiritdev/shoppinglist">More Shopping To do List on Github</a></p>
-              </div>
-            </div>
           </div>
-
-            <div id="projects">
-              <div class="pic">
-                <div class="callout panel white-panel">
-                  <a href="img/notebook1.jpg" target="_blank"><img src="img/notebook1.jpg"></a>
-                  <a href="img/notebook2.jpg" target="_blank"><img src="img/notebook2.jpg"></a>
-                  <a href="img/notebook3.jpg" target="_blank"><img src="img/notebook3.jpg"></a>
-                  <a href="img/notebook4.jpg" target="_blank"><img src="img/notebook4.jpg"></a><br><br>
-                  <h2>Notebook</h2>
-                  <h5><span class="">Ruby on Rails /</span> <span class="">Front-End Development</span></h5>
-                  <p>Notebook App, it was developed using Ruby on Rails, Bootstrap, HTML5, SASS, and CoffeeScript.</p>
-                  <p><a href="https://github.com/freespiritdev/notebook">More Notebook on Github</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div id="projects">
-            <div class="pic">
-              <div class="callout panel white-panel">
-                <a href="img/jottly.jpg" target="_blank"><img src="img/jottly.jpg"></a>
-                <a href="img/jottly2.jpg" target="_blank"><img src="img/jottly2.jpg"></a>
-                <a href="img/jottly3.jpg" target="_blank"><img src="img/jottly.jpg"></a>
-                <a href="img/jottly4.jpg" target="_blank"><img src="img/jottly4.jpg"></a><br><br>
-                <h2>Jottly</h2>
-                <h5><span class="">Landing Page /</span> <span class="">Front-End Development</span></h5>
-                <p>Designed using HTML, CSS, Skeleton & Animate.css.</p>
-                <p><a href="https://github.com/freespiritdev/job_board">More Jottly on Github</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div id="projects">
-            <div class="pic">
-              <div class="callout panel white-panel">
-                <a href="img/jobboard.jpg" target="_blank"><img src="img/jobboard.jpg"></a>
-                <a href="img/jobboard2.jpg" target="_blank"><img src="img/jobboard2.jpg"></a>
-                <a href="img/jobboard3.jpg" target="_blank"><img src="img/jobboard3.jpg"></a>
-                <a href="img/jobboard4.jpg" target="_blank"><img src="img/jobboard4.jpg"></a><br><br>
-                <h2>Job Board</h2>
-                <h5><span class="">Ruby on Rails /</span> <span class="">Front-End Development</span></h5>
-                <p>Job Board, it was developed using Ruby on Rails, Bootstrap, HTML, SASS & HTML5.</p>
-                <p><a href="https://github.com/freespiritdev/job_board">More Job Board on Github</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div id="projects">
-            <div class="pic">
-              <div class="callout panel white-panel">
-                <a href="img/pinlist.jpg" target="_blank"><img src="img/pinlist.jpg"></a>
-                <a href="img/pinlist2.jpg" target="_blank"><img src="img/pinlist2.jpg"></a>
-                <a href="img/pinlist3.jpg" target="_blank"><img src="img/pinlist3.jpg"></a>
-                <a href="img/pinlist4.jpg" target="_blank"><img src="img/pinlist4.jpg"></a><br><br>
-                <h2>Pin List</h2>
-                <h5><span class="">Ruby on Rails</span></h5>
-                <p>PinList, it was developed using Ruby on Rails, HAML & JQuery.</p>
-                <p><a href="https://github.com/freespiritdev/pinlist">More Job Board on Github</a></p>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
-   
+
+    <section id="work" class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Projects</h2>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 work-item">
+          <a href="#workModal1" class="work-link" data-toggle="modal">
+          <div class="work-hover">
+            <div class="work-hover-content">
+              </p>See More</p>
+            </div>
+          </div>
+          <a target="_new" href="img/mediahaven.jpg"><img src="img/mediahaven.jpg" class="img-responsive" alt=""></a>
+          <div class="work-caption">
+            <h4>MediaHaven</h4>
+              <p class="text-muted">Web Application</p>
+              <p><a href="https://github.com/freespiritdev/mediahaven">Media Haven on Github</a></p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 work-item">
+          <a href="#workModal2" class="work-link" data-toggle="modal">
+            <div class="work-hover">
+              <div class="work-hover-content">
+                <!-- <i class="fa fa-plus fa-3x"> --></p>See More</p><!-- </i> -->
+              </div>
+            </div>
+            <a target="_new" href="shoppinglist.html"><img src="img/shoppinglist.jpg" class="img-responsive" alt=""></a>
+            <div class="work-caption">
+              <h4>Shopping To Do List</h4>
+                <p class="text-muted">Web Application</p>
+                <p><a href="https://github.com/freespiritdev/shoppinglist">Shopping To do List on Github</a></p>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 work-item">
+          <a href="#workModal3" class="work-link" data-toggle="modal">
+            <div class="work-hover">
+              <div class="work-hover-content">
+                </p>See More</p>
+              </div>
+            </div>
+            <a target="_new" href="img/skybnb.jpg"><img src="img/skybnb.jpg" class="img-responsive" alt=""></a>
+            <div class="work-caption">
+              <h4>Skybnb</h4>
+                <p class="text-muted">Landing Page / Front-End Development</p>
+                <p><a href="https://github.com/freespiritdev/skybnb2">Skybnb on Github</a></p>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 work-item">
+          <a href="#workModal4" class="work-link" data-toggle="modal">
+            <div class="work-hover">
+              <div class="work-hover-content">
+                </p>See More</p>
+              </div>
+            </div>
+            <a target="_new" href="img/notebook1.jpg"><img src="img/notebook1.jpg" class="img-responsive" alt=""></a>
+            <div class="work-caption">
+              <h4>Notebook</h4>
+                <p class="text-muted">Web Application</p>
+                <p><a href="https://github.com/freespiritdev/notebook">Notebook on Github</a></p>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 work-item">
+          <a href="#workModal5" class="work-link" data-toggle="modal">
+            <div class="work-hover">
+              <div class="work-hover-content">
+                </p>See More</p>
+              </div>
+            </div>
+            <a target="_new" href="img/jottly.jpg"><img src="img/jottly.jpg" class="img-responsive" alt=""></a>
+            <div class="work-caption">
+              <h4>Jottly</h4>
+                <p class="text-muted">Landing Page / Front-End Development</p>
+                <p><a href="https://github.com/freespiritdev/jottly">Notebook on Github</a></p>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 work-item">
+          <a href="#workModal6" class="work-link" data-toggle="modal">
+            <div class="work-hover">
+              <div class="work-hover-content">
+                </p>See More</p>
+              </div>
+            </div>
+            <a target="_new" href="img/jobboard.jpg"><img src="img/jobboard.jpg" class="img-responsive" alt=""></a>
+            <div class="work-caption">
+              <h4>Job Board</h4>
+                <p class="text-muted">Web Application</p>
+                <p><a href="https://github.com/freespiritdev/jobboard">Notebook on Github</a></p>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 work-item">
+          <a href="#workModal7" class="work-link" data-toggle="modal">
+            <div class="work-hover">
+              <div class="work-hover-content">
+                </p>See More</p>
+              </div>
+            </div>
+            <a target="_new" href="img/pinlist.jpg"><img src="img/pinlist.jpg" class="img-responsive" alt=""></a>
+            <div class="work-caption">
+              <h4>Pin List</h4>
+                <p class="text-muted">Web Application</p>
+                <p><a href="https://github.com/freespiritdev/pinlist">Notebook on Github</a></p>
+            </div>
+        </div>
+
+
+      </section>
+    
+<div>
       <section>
         <div class="contact">
           <ul class="social">
@@ -163,11 +177,11 @@
           </ul>
         </div>
       </section>
-   
-      <div id="footer"> 
-        &copy; 2015 FreeSpirit Development.
-      </div>
+  
+    <div id="footer"> 
+      &copy; 2015 FreeSpirit Development.
     </div>
+</div>
 
     
   <script src="js/vendor/jquery.js"></script>
