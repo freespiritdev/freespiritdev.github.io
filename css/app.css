@@ -4,21 +4,21 @@ body {
   margin:0;
   padding:0;
   height:100%;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 a {
-  color: #000;
+  color: #3dd;
   line-height: inherit;
   text-decoration: none; 
 }
 
 a:hover, a:focus {
-  color: #3DD; 
+  color: #337ab7; 
 }
 
 nav a:hover {
-  color: #000;
+  color: #337ab7;
 }
 
 em {
@@ -31,7 +31,7 @@ h1, .header h5{
 
 h2 {
   text-align: center;
-  color: #337ab7;
+  color: #3dd;
 }
 
 section h2.section-heading {
@@ -41,11 +41,11 @@ section h2.section-heading {
 }
 
 ul, ol, dl {
-  font-size: 1.3em;
+  font-size: 1em;
   }
 
 #header h1 {
-  color: #337ab7;
+  color: #3dd;
   font-size: 2em;
   font-weight: 350;
   line-height: 2;
