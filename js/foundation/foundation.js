@@ -605,15 +605,15 @@
       //    Image (jQuery Object): Image(s) to check if loaded.
       //
       //    Callback (Function): Function to execute when image is fully loaded.
-      image_loaded : function (images, callback) {
+      image_loaded : function (img, callback) {
         var self = this,
-            unloaded = images.length;
+            unloaded = img.length;
 
-        function pictures_has_height(images) {
-          var pictures_number = images.length;
+        function pictures_has_height(img) {
+          var pictures_number = img.length;
 
           for (var i = pictures_number - 1; i >= 0; i--) {
-            if(images.attr('height') === undefined) {
+            if(img.attr('height') === undefined) {
               return false;
             };
           };
@@ -621,15 +621,15 @@
           return true;
         }
 
-        if (unloaded === 0 || pictures_has_height(images)) {
-          callback(images);
+        if (unloaded === 0 || pictures_has_height(img)) {
+          callback(img);
         }
 
-        images.each(function () {
+        img.each(function () {
           single_image_loaded(self.S(this), function () {
             unloaded -= 1;
             if (unloaded === 0) {
-              callback(images);
+              callback(img);
             }
           });
         });
