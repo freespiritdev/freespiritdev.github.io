@@ -201,82 +201,100 @@ img {
   min-height: 480px;
   margin-top: 60px;
   margin-bottom: 108px;
-  overflow: visible; }
-  .project .shield {
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 3;
-    display: none;
-    max-height: 372px;
-    padding-bottom: 24px;
-    opacity: 0; }
-    .project .shield img {
-      width: 100%;
-      height: auto;
-      max-height: 372px;
-      opacity: 0; }
-  .project .preview {
-    position: relative;
-    z-index: 2;
-    width: 62.5%;
-    max-width: 782px;
-    height: 100%; }
-    .project .preview .left {
-      left: 0; }
-    .project .preview .right {
-      right: 0; }
-    .project .preview .browser img {
-      max-width: 780px; }
-  .project .info {
-    width: 34%;
-    margin-top: 66px; }
-    .project .info h1 {
-      margin-left: -2px;
-      line-height: 60px;
-      font-size: 48px;
-      font-weight: 800;
-      font-family: "jaf-facitweb", sans-serif;
-      text-transform: uppercase;
-      white-space: nowrap; }
-    .project .info p {
-      margin-top: 12px;
-      margin-bottom: 42px;
-      line-height: 42px;
-      font-size: 22px; }
-    .project .info .role {
-      position: relative;
-      width: 105%;
-      margin-top: 24px; }
-      .project .info .role h6 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        line-height: 30px; }
-      .project .info .role div {
-        margin-left: 57px; }
-      .project .info .role span {
-        line-height: 30px;
-        font-size: 20px;
-        font-weight: 500;
-        white-space: nowrap; }
-        .project .info .role span em {
-          font-size: 16px;
-          letter-spacing: -0.02em;
-          margin-right: 4px;
-          opacity: 0.6; }
-    .project .info .role.weird div {
-      margin-left: 124px; }
-    .project .info .button {
-      min-width: 60%; }
-    .project .info .button.livelink {
-      display: none; }
-
+  overflow: visible; 
+}
+.project .shield {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display: none;
+  max-height: 372px;
+  padding-bottom: 24px;
+  opacity: 0; 
+}
+.project .shield img {
+  width: 100%;
+  height: auto;
+  max-height: 372px;
+  opacity: 0; 
+}
+.project .preview {
+  position: relative;
+  z-index: 2;
+  width: 62.5%;
+  max-width: 782px;
+  height: 100%; 
+  }
+.project .preview .left {
+  left: 0; 
+}
+.project .preview .right {
+  right: 0; 
+}
+.project .preview .browser img {
+  max-width: 780px; 
+}
+.project .info {
+  width: 34%;
+  margin-top: 66px; 
+}
+.project .info h1 {
+  margin-left: -2px;
+  line-height: 60px;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "jaf-facitweb", sans-serif;
+  text-transform: uppercase;
+  white-space: nowrap; 
+}
+.project .info p {
+  margin-top: 12px;
+  margin-bottom: 42px;
+  line-height: 42px;
+  font-size: 22px; 
+}
+.project .info .role {
+  position: relative;
+  width: 105%;
+  margin-top: 24px; 
+}
+.project .info .role h6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 30px; 
+}
+.project .info .role div {
+  margin-left: 57px; 
+}
+.project .info .role span {
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  white-space: nowrap; 
+}
+.project .info .role span em {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  margin-right: 4px;
+  opacity: 0.6; 
+}
+.project .info .role.weird div {
+  margin-left: 124px; 
+}
+.project .info .button {
+  min-width: 60%; 
+}
+.project .info .button.livelink {
+  display: none; 
+}
 .project.offset {
-  padding-bottom: 48px; }
-  .project.offset .info {
-    margin-top: 78px; }
-
+padding-bottom: 48px; 
+}
+.project.offset .info {
+  margin-top: 78px; 
+}
 .ileft {
   float: left; }
 
@@ -325,7 +343,8 @@ img {
 @media screen and (max-width: 1199px) {
   section.work {
     margin-top: -30%;
-    text-align: center; }
+    text-align: center; 
+  }
   .project.offset {
     padding: 0; }
     .project.offset .info {
@@ -391,4 +410,5 @@ img {
         opacity: 1; }
   .phone {
     top: 16%;
-    right: 0; } }
+    right: 0; } 
+  }
