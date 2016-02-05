@@ -161,7 +161,14 @@ a.service-heading{
   text-transform:none;
 }
 
+div.modal-body{
+  color: #fff;
+}
+
 .text-muted{
+  color: #000;
+}
+.text-muted2{
   color: #fff;
 }
 .text-primary{
@@ -416,6 +423,10 @@ a.service-heading{
 }
 .modal-body{
   background-color: #000;
+}
+.modal-body2{
+  background-color: #fff;
+  color: #000;
 }
 ::-moz-selection{
   text-shadow:none;
