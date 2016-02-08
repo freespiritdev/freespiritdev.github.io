@@ -1,0 +1,23 @@
+body{
+  background-color: #25064c;;
+  color: #fff;
+}
+
+ul{
+  list-style: circle;
+}
+
+ul.skills li{
+  display: inline-block;
+}
+
+h1, h3, h5, address{
+  text-align: center;
+}
+
+a.portfolio{
+}
+
+a, a:hover{
+  color: #fff;
+}
