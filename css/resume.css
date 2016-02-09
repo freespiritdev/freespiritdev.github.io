@@ -18,6 +18,14 @@ h1, h3, h5, address{
 a.portfolio{
 }
 
-a, a:hover{
+a{
   color: #fff;
+  text-decoration: none;
 }
+
+a:hover{
+  color: #ccc;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
