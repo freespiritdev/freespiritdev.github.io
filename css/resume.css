@@ -15,9 +15,9 @@ h1, h3, h5, address{
   text-align: center;
 }
 
-a.portfolio{
+/*a.portfolio{
 }
-
+*/
 a{
   color: #fff;
   text-decoration: none;
@@ -27,5 +27,11 @@ a:hover{
   color: #ccc;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+section{
+  margin: 20px;
+  border: 20px;
+  padding: 5px;
 }
 
