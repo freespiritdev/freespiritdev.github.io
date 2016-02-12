@@ -1,6 +1,7 @@
 body{
-  background-color: #25064c;;
+  background-color: #25064c;
   color: #fff;
+  font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 ul{
@@ -11,6 +12,9 @@ ul.skills li{
   display: inline-block;
 }
 
+h1, h2, h3, h4, h5, h6{
+  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 h1, h3, h5, address{
   text-align: center;
 }
@@ -35,3 +39,6 @@ section{
   padding: 5px;
 }
 
+footer{
+  text-align:center;
+}
