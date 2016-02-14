@@ -15,7 +15,7 @@ ul.skills li{
 h1, h2, h3, h4, h5, h6{
   font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-h1, h3, h5, address{
+h1, h3, h5, h6, address{
   text-align: center;
 }
 
@@ -37,5 +37,6 @@ section{
 }
 
 footer{
-  text-align:center;
+  font-size: .7em;
 }
+
