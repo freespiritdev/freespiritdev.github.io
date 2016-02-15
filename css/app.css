@@ -16,7 +16,7 @@ a,a:hover,a:focus,a:active,a.active{
 a{
   color:#9768d1;
 }
-a:hover,a:focus,a:active,a.active{
+a:hover,a:focus,a:active{
   color: #25064c;
 }
 h1,h2,h3,h4,h5,h6{
@@ -77,16 +77,7 @@ footer{
   padding:25px 0;
   text-align:center;
 }
-footer span.copyright{
-  line-height:40px;
-  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform:uppercase;
-  text-transform:none}
-footer ul.quicklinks{
-  margin-bottom:0;
-  line-height:40px;
-  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
+
 ul.social-buttons{
   margin-bottom:0;
 }
@@ -163,6 +154,17 @@ a.service-heading{
 
 div.modal-body{
   color: #fff;
+}
+
+footer span.copyright{
+  line-height:40px;
+  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:uppercase;
+  text-transform:none}
+footer ul.quicklinks{
+  margin-bottom:0;
+  line-height:40px;
+  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted{

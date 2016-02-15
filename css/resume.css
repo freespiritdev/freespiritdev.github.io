@@ -24,7 +24,7 @@ a{
   text-decoration: none;
 }
 
-a:hover,a:focus,a:active,a.active{
+a:hover,a:focus,a:active{
   color: #ccc;
   text-decoration: none;
   text-transform: uppercase;
