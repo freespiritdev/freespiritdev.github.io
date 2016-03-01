@@ -1,158 +1,158 @@
 body{
   overflow-x:hidden;
-  font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:  "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p{
-  font-size:18px;
-  line-height:1.75;
+  font-size:    18px;
+  line-height:  1.75;
 }
 p.large{
-  font-size:16px;
+  font-size:  16px;
 }
 
 a,a:hover,a:focus,a:active,a.active{
-  outline:0;
+  outline:  0;
 }
 a{
-  color:#9768d1;
+  color:  #9768d1;
 }
 a:hover,a:focus,a:active{
-  color: #25064c;
+  color:  #25064c;
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform:uppercase;
-  font-weight:700;
+  font-family:     Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:  uppercase;
+  font-weight:     700;
 }
 
 header{
-  background-image:url(../img/main.jpg);
-  background-repeat:none;
-  background-attachment:scroll;
-  background-position:center center;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  background-size:cover;
-  -o-background-size:cover;
-  text-align:center;
-  color:#fff;
+  background-image:         url(../img/main.jpg);
+  background-repeat:        none;
+  background-attachment:    scroll;
+  background-position:      center center;
+  -webkit-background-size:  cover;
+  -moz-background-size:     cover;
+  background-size:          cover;
+  -o-background-size:       cover;
+  text-align:               center;
+  color:                    #fff;
 }
 header .intro-text{
-  padding-top:100px;
-  padding-bottom:50px;
+  padding-top:     100px;
+  padding-bottom:  50px;
 }
 header .intro-text .intro-lead-in{
-  font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-style:italic;
-  font-size:22px;
-  line-height:22px;
-  margin-bottom:25px;
+  font-family:        "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style:         italic;
+  font-size:          22px;
+  line-height:        22px;
+  margin-bottom:      25px;
 }
 header .intro-text .intro-heading{
-  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform:uppercase;
-  font-weight:700;
-  font-size:50px;
-  line-height:50px;
-  margin-bottom:25px;
+  font-family:      Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:   uppercase;
+  font-weight:      700;
+  font-size:        50px;
+  line-height:      50px;
+  margin-bottom:    25px;
 }
 
 section#contact{
-  background-color:#222;
+  background-color:   #222;
 }
 section#contact .section-heading{
-  color:#fff;
+  color:    #fff;
 }
 section#contact .form-group{
-  margin-bottom:25px;
+  margin-bottom:    25px;
 }
 section#contact .form-group input,section#contact .form-group textarea{
-  padding:20px;
+  padding:    20px;
 }
 section#contact .form-group input.form-control{
-  height:auto;
+  height:   auto;
 }
 section#contact .form-group textarea.form-control{
-  height:236px;
+  height:   236px;
 }
 section#contact .form-control:focus{
-  border-color:#9768d1;
-  box-shadow:none;
+  border-color:   #9768d1;
+  box-shadow:     none;
 }
 section#contact ::-webkit-input-placeholder{
-  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform:uppercase;
-  font-weight:700;
-  color:#333;
+  font-family:      Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:   uppercase;
+  font-weight:      700;
+  color:            #333;
 }
 section#contact :-moz-placeholder{
-  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform:uppercase;
-  font-weight:700;
-  color:#333;
+  font-family:      Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:   uppercase;
+  font-weight:      700;
+  color:            #333;
 }
 section#contact ::-moz-placeholder{
-  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform:uppercase;
-  font-weight:700;
-  color:#333;
+  font-family:      Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:   uppercase;
+  font-weight:      700;
+  color:            #333;
 }
 section#contact :-ms-input-placeholder{
-  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform:uppercase;
-  font-weight:700;
-  color:#333;
+  font-family:      Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:   uppercase;
+  font-weight:      700;
+  color:            #333;
 }
 section#contact .text-danger{
-  color:#e74c3c;
+  color:            #e74c3c;
 }
 section{
-  padding:100px 0;
+  padding:          100px 0;
 }
 section h2.section-heading{
-  font-size:40px;
-  margin-top:0;
-  margin-bottom:15px;
+  font-size:        40px;
+  margin-top:       0;
+  margin-bottom:    15px;
 }
 section h3.section-subheading{
-  font-size:16px;
-  font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform:none;
-  font-style:italic;
-  font-weight:400;
-  margin-bottom:75px;
+  font-size:        16px;
+  font-family:      "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:   none;
+  font-style:       italic;
+  font-weight:      400;
+  margin-bottom:    75px;
 }
 
 ul.social-buttons{
-  margin-bottom:0;
+  margin-bottom:        0;
 }
 ul.social-buttons li a{
-  display:block;
-  background-color:#222;
-  height:40px;
-  width:40px;
-  border-radius:100%;
-  font-size:20px;
-  line-height:40px;
-  color:#fff;
-  outline:0;
-  -webkit-transition:all .3s;
-  -moz-transition:all .3s;
-  transition:all .3s;
+  display:              block;
+  background-color:     #222;
+  height:               40px;
+  width:                40px;
+  border-radius:        100%;
+  font-size:            20px;
+  line-height:          40px;
+  color:                #fff;
+  outline:              0;
+  -webkit-transition:   all .3s;
+  -moz-transition:      all .3s;
+  transition:           all .3s;
 }
 ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{
-  background-color:#9768d1;
+  background-color:     #9768d1;
 }
 
 div.modal-body{
-  color: #fff;
+  color:          #fff;
 }
 
 footer{
-  padding:25px 0;
-  text-align:center;
+  padding:        25px 0;
+  text-align:     center;
 }
 footer span.copyright{
   line-height:40px;
