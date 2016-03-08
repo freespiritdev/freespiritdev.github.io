@@ -493,3 +493,8 @@ footer span.copyright{
   }
 }
 
+@media (min-width:1400px){
+  .copyright{
+  font-size:  .8em;
+}
+}
