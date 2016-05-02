@@ -158,7 +158,8 @@ footer span.copyright{
   line-height:      40px;
   font-family:      Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   text-transform:   uppercase;
-  text-transform:   none
+  text-transform:   none;
+  text-align: center;
 }
 
 .text-muted{
