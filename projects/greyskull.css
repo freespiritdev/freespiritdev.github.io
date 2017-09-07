@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+.page-wrap {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.main-story {
+  position: relative;
+  margin: 0 0 25px 0;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 100%
+}
+
+a {
+  color: #DD0F43;
+}
+
+.story-intro {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  color: white;
+}
+
+h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+h1,h2 {
+  margin: 0 0 10px 0;
+}
+
+.story-intro h1 {
+  font-size: 2.5em;
+}
+
+.story-intro p {
+  margin: 0;
+}
+
+.sub-stories {
+  overflow: hidden;
+  margin: 0 0 25px 0;
+  /*align-items: center;*/
+}
+
+.sub-story {
+  float: left;
+  width: 250px;
+  margin-right: 25px;
+  position: relative;
+  font-size: 80%;
+}
+
+.last {
+  margin-right: 0;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+.page-wrap > p {
+  margin-top: 100px;
+  font-size: 130%;
+}
+
+.fixedh1 {
+  top: 0;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  z-index: 100;
+}
+span {
+  color: #DD0F43;
+  }
+
+footer{
+  text-align: center;
+  font-size: 100%;
+  color: #DD0F43;
+}
+
+@media screen and (max-width: 599px){
+  div.horizontal {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.vertical {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+  }
+
+  .page-wrap {
+    width: 100%;
+    margin: 0;
+  }
+
+  .page-wrap p{
+   font-size: 125%;
+   margin-top: 50px;
+   text-align: center;
+  }
+  
+  .page-wrap h1{
+    font-size: 160%;
+    text-align: center;
+  }
+  .page-wrap h2{
+    text-align: center;
+  }
+   h2 {
+    text-align: center;
+  }
+  
+  .main-story {
+    text-align: center;
+    margin: 35px 0px 25px 0;
+  } 
+
+  .fixedh1 {
+    top: 0;
+    position: fixed;
+    height: 30px;
+    z-index: 120;
+    font-size: 150%;
+  }
+
+  .story-intro {
+    position: relative;
+  }
+  .story-intro p{
+    margin: 14px;
+  }
+  .sub-stories {
+    margin: 0 0 25px 25px;
+  }
+}
+
+@media (min-width:600px) and (max-width: 1023px) { 
+  article.sub-story {
+    margin-right: 10px;
+  }
+  .main-story {
+    margin: 0 10px 25px 0px;
+  } 
+}
+
+
+
