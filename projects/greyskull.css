@@ -92,7 +92,7 @@ body {
 }
 span {
   color: #DD0F43;
-  }
+}
 
 footer{
   text-align: center;
@@ -101,16 +101,6 @@ footer{
 }
 
 @media screen and (max-width: 599px){
-  div.horizontal {
-    display: flex;
-    justify-content: center;
-  }
-
-  div.vertical {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;   
-  }
 
   .page-wrap {
     width: 100%;
@@ -127,9 +117,11 @@ footer{
     font-size: 160%;
     text-align: center;
   }
+
   .page-wrap h2{
     text-align: center;
   }
+
    h2 {
     text-align: center;
   }
@@ -155,6 +147,16 @@ footer{
   }
   .sub-stories {
     margin: 0 0 25px 25px;
+  }
+  div.horizontal {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.vertical {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
   }
 }
 

@@ -19,4 +19,12 @@ $("a[href='#top']").click(function() {
   return false;
 });
 
+$(document).ready(function (){
+  $("a[href='.sub-story .last']").click(function(){                
+    $('html, body').animate({
+      scrollTop: $('#top').offset().top
+        }, 1000);               
+    });
+});
+
 
