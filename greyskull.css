@@ -94,7 +94,7 @@ span {
   color: #DD0F43;
 }
 
-div.horizontal {
+/*div.horizontal {
   display: flex;
   justify-content: center;
 }
@@ -103,7 +103,7 @@ div.vertical {
   display: flex;
   justify-content: center;
   flex-direction: column;   
-}
+}*/
 
 footer{
   text-align: center;
